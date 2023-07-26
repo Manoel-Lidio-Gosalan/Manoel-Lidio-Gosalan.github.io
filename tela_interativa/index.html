@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Integracao</title>
+</head>
+
+<body>
+    <div id="my-div">
+        <img src="./falcon.png" alt="">
+    </div>
+
+    <script>
+        // Captura o elemento da div pelo id
+        const myDiv = document.getElementById("my-div");
+
+        // Adiciona um listener para o evento "mousemove"
+        document.addEventListener("mousemove", (e) => {
+            // Define as novas coordenadas da div baseadas na posição do mouse
+            const x = e.pageX;
+            const y = e.pageY;
+
+            // Atualiza a posição da div usando as coordenadas do mouse
+            myDiv.style.left = x - 50 + "px"; // 50 é metade da largura da div (100px / 2)
+            myDiv.style.top = y - 50 + "px";  // 50 é metade da altura da div (100px / 2)
+        });
+    </script>
+</body>
+</html>
