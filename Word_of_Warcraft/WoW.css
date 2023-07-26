@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: WOW;
+  src: url(./font/LifeCraft_Font.ttf);
+
+}
+
+:root {
+  --cor1: black;
+
+}
+
+header {
+  font-family: WOW;
+  width: 100%;
+  height: 40%;
+  top: 100%;
+  background-image: url(./image/World_of_Warcraft_header.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  color: antiquewhite;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 5em;
+  color: darkgreen;
+  margin-top: 10%;
+}
+
+header p {
+  text-align: center;
+  font-size: 3em;
+  color: blanchedalmond;
+}
+.audio{
+  text-align: left;
+  font-size: 10px;
+}
+
+body {
+  background-color: rgb(160, 102, 45);
+}
+
+main {
+  background-color: rgba(128, 0, 0, 0.283);
+  padding: 40px;
+  position: relative;
+  padding: 1.5em;
+  margin-bottom: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.83);
+  max-width: 1750px;
+  margin: 0% 10% 5% 10%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: wow;
+  color: rgb(10, 212, 20);
+  font-size: 4em;
+  text-align: center;
+}
+
+h2 {
+  font-family: wow;
+  color: rgba(15, 206, 235, 0.953);
+  text-align: center;
+  font-size: 4em;
+}
+h3{
+  font-family: wow;
+  font-size: 2em;
+  text-align: center;
+  color: yellowgreen;
+}
+
+p {
+  font-size: 2em;
+  padding: 1em;
+  text-align: justify;
+  text-indent: 1.5em;
+  color: black;
+}
+
+ul {
+  font-size: 1.6em;
+  list-style-position: inside;
+  columns: 1;
+  list-style-type: '\2714\00A0\00A0';
+  color: rgb(10, 234, 73);
+  text-align: center;
+  display: block;
+}
+.mundos{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.sargeras{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.mapa{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.deuses{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.dragoes{
+margin: auto;
+display: block;
+width: 100%;
+
+}
+.elfos{
+  margin: auto;
+  display: block;
+  width: 100%;
+
+}
+.valen{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.ancioes{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.roptura{
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+.presente{
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+.arvore{
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+.tribos{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.exilio{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.sentinela{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.azeroth{
+  margin: auto;
+  display: block;
+  width: 100%;
+
+}
+.quel{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.ht{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.gt{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.ia{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.sr{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.cd{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.gtm{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.ug{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.pt{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.cha{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.time{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+footer {
+  text-align: center;
+}
